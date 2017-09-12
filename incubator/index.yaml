@@ -20,6 +20,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-nginx
     urls:
-    - nginx-0.4.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/incubator/nginx-0.4.0.tgz
     version: 0.4.0
 generated: 2017-09-11T16:51:16.568849619-04:00
