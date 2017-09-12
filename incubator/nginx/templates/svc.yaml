@@ -9,7 +9,7 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
 #  type: LoadBalancer
-  type: ClusterIP
+  type: NodePort
   ports:
   - name: http
     port: 80
