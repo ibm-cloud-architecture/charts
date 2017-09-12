@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   nginx:
   - appVersion: 1.10.2
-    created: 2017-09-11T16:51:16.569465921-04:00
+:    created: 2017-09-11T16:51:16.569465921-04:00
     description: Chart for the nginx server
     digest: 0fe18d67239552df2c208fd49ce195c91fc9a03d9e2f3ba1431e2bebc3cf5b69
     engine: gotpl
@@ -16,5 +16,5 @@ entries:
     name: nginx
     urls:
     - nginx-0.4.0.tgz
-    version: 0.4.0
+    version: 0.4.1
 generated: 2017-09-11T16:51:16.568849619-04:00
