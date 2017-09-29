@@ -50,7 +50,7 @@ userHomePvc:
     ## Specify the name of the StorageClass
     ## Setting StorageClass: "" will use whatever storageClass is currently
     ## setup as the Default
-    storageClassName:
+    storageClassName: ""
 
     ## DSX Desktop Edition requires a ReadWriteMany accessMode
     # accessMode: 'ReadWriteMany'
