@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  ibm-dsx-dev:
+  - apiVersion: v1
+    created: 2017-09-29T07:20:18.691211171-04:00
+    description: IBM Data Science Experience (DSX) Developer Edition brings together
+      best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
+      and Python,R and Scala runtimes to create a platform for Data Scientists to
+      learn, create and collaborate.
+    digest: 6cb10d862213b1351c95a53aab7ae007a6ffefe2770b52105468bad8346a2957
+    home: http://datascience.ibm.com/desktop
+    icon: https://datascience.ibm.com/graphics/landing/logo.svg
+    keywords:
+    - Data Science
+    - Spark
+    - R
+    - Python
+    - Scala
+    - notebooks
+    maintainers:
+    - name: IBM Analytics
+    name: ibm-dsx-dev
+    tillerVersion: '>=2.4.0'
+    urls:
+    - ibm-dsx-dev-0.1.5.tgz
+    version: 0.1.5
+generated: 2017-09-29T07:20:18.689490745-04:00
