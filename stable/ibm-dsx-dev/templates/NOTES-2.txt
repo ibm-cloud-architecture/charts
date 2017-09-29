@@ -1,0 +1,4 @@
+Data Science Experience (DSX) is delivered as an interconnected set of pods and kubernetes services. Each DSX helm install must be to a different kubernetes namespace. 
+
+Access the application through the assigned ClusterIP.
+
