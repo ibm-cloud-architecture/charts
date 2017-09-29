@@ -21,7 +21,7 @@ metadata:
     component: dsx-ux-server
 spec:
 #  type: NodePort
-  type: ClusterIP
+  type: LoadBalancer
   ports:
     - name: dsx-ux-https-port
       protocol: TCP
