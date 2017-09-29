@@ -27,7 +27,7 @@ spec:
       protocol: TCP
       port: 443
       targetPort: 443
-      nodePort: {{ .Values.dsxservice.externalPort }}
+#      nodePort: {{ .Values.dsxservice.externalPort }}
     - name: dsx-ux-http-port
       protocol: TCP
       port: 80
