@@ -20,7 +20,8 @@ metadata:
     run: dsx-ux-server-svc
     component: dsx-ux-server
 spec:
-  type: NodePort
+#  type: NodePort
+  type: ClusterIP
   ports:
     - name: dsx-ux-https-port
       protocol: TCP
