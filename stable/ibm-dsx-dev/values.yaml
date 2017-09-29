@@ -28,7 +28,7 @@ image:
 
 
 dsxservice:
-  externalPort: 32443
+#  externalPort: 32000
 
 ###############################################################################
 ## Persistence Storage
