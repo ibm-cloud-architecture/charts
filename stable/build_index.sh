@@ -1,2 +1,2 @@
-helm repo index --merge index.yaml \
-    --url https://raw.githubusercontent.com/ibm-cloud-architecture/charts/ ./
+helm repo index \
+    --url https://raw.githubusercontent.com/ibm-cloud-architecture/charts/stable ./
