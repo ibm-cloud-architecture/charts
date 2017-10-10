@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-10T08:14:59.282426655-04:00
+    created: 2017-10-10T08:36:55.629114659-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -19,11 +19,11 @@ entries:
     - https://github.com/IBM/charts/tree/master/stable
     tillerVersion: '>=2.4.0'
     urls:
-    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/stable/ibm-db2oltp-dev-0.1.1.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-db2oltp-dev-0.1.1.tgz
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-10T08:14:59.28395014-04:00
+    created: 2017-10-10T08:36:55.630582031-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -43,6 +43,6 @@ entries:
     name: ibm-dsx-dev
     tillerVersion: '>=2.4.0'
     urls:
-    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/stable/ibm-dsx-dev-0.1.5.4.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-dsx-dev-0.1.5.4.tgz
     version: 0.1.5.4
-generated: 2017-10-10T08:14:59.258257306-04:00
+generated: 2017-10-10T08:36:55.604698417-04:00
