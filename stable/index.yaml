@@ -1,13 +1,34 @@
 apiVersion: v1
 entries:
+  ibm-db2oltp-dev:
+  - apiVersion: v1
+    created: 2017-10-10T07:52:35.159210536-04:00
+    description: IBM Db2 Developer-C Edition 11.1.2.2
+    digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
+    engine: gotpl
+    home: https://www.ibm.com/analytics/us/en/db2/
+    icon: https://na.cumulusrepo.com/assetswithkey/ba5345023eb40c21d01ad81bc927a36f/db2logoicp-01.png/v1
+    keywords:
+    - db2
+    - database
+    - sql
+    maintainers:
+    - name: IBM Analytics
+    name: ibm-db2oltp-dev
+    sources:
+    - https://github.com/IBM/charts/tree/master/stable
+    tillerVersion: '>=2.4.0'
+    urls:
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/ibm-db2oltp-dev-0.1.1.tgz
+    version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-09-29T07:20:18.691211171-04:00
+    created: 2017-10-10T07:48:34.266735661-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
       learn, create and collaborate.
-    digest: 6cb10d862213b1351c95a53aab7ae007a6ffefe2770b52105468bad8346a2957
+    digest: 44b9b54926f7581dad9547793957f2b8f4c1739d280ae3649ea5ac87d7dd40ad
     home: http://datascience.ibm.com/desktop
     icon: https://datascience.ibm.com/graphics/landing/logo.svg
     keywords:
@@ -22,6 +43,29 @@ entries:
     name: ibm-dsx-dev
     tillerVersion: '>=2.4.0'
     urls:
-    - ibm-dsx-dev-0.1.5.tgz
-    version: 0.1.5
-generated: 2017-09-29T07:20:18.689490745-04:00
+    - ibm-dsx-dev-0.1.5.4.tgz
+    version: 0.1.5.4
+  - apiVersion: v1
+    created: 2017-10-10T07:52:35.160892987-04:00
+    description: IBM Data Science Experience (DSX) Developer Edition brings together
+      best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
+      and Python,R and Scala runtimes to create a platform for Data Scientists to
+      learn, create and collaborate.
+    digest: 44b9b54926f7581dad9547793957f2b8f4c1739d280ae3649ea5ac87d7dd40ad
+    home: http://datascience.ibm.com/desktop
+    icon: https://datascience.ibm.com/graphics/landing/logo.svg
+    keywords:
+    - Data Science
+    - Spark
+    - R
+    - Python
+    - Scala
+    - notebooks
+    maintainers:
+    - name: IBM Analytics
+    name: ibm-dsx-dev
+    tillerVersion: '>=2.4.0'
+    urls:
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/ibm-dsx-dev-0.1.5.4.tgz
+    version: 0.1.5.4
+generated: 2017-10-10T07:52:35.132276183-04:00
