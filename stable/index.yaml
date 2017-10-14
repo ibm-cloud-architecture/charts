@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-10T08:36:55.629114659-04:00
+    created: 2017-10-13T21:35:13.817062848-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-10T08:36:55.630582031-04:00
+    created: 2017-10-13T21:35:13.820667945-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -45,4 +45,14 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-dsx-dev-0.1.5.4.tgz
     version: 0.1.5.4
-generated: 2017-10-10T08:36:55.604698417-04:00
+  nfs-server:
+  - apiVersion: v1
+    created: 2017-10-13T21:35:13.821307392-04:00
+    description: A Helm chart for Kubernetes
+    digest: 50daacc69644710b3f464e8ab85e7765ef3c029e136408888e4285ed7d1acbc4
+    icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-nfs-server/raw/master/nfs-server/nfs-folder-icon.png
+    name: nfs-server
+    urls:
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/nfs-server-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-10-13T21:35:13.791967035-04:00
