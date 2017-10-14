@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-13T22:17:38.320081297-04:00
+    created: 2017-10-13T22:22:05.62355388-04:00
     description: An amazing FTP server
-    digest: cf4f75b1f76135ef81c69e23079ffa008a74498d87a38a055873bfe5fc462ffa
+    digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
     name: ftp-server
     urls:
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-13T22:17:38.345711305-04:00
+    created: 2017-10-13T22:22:05.648016053-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-13T22:17:38.34795283-04:00
+    created: 2017-10-13T22:22:05.649381873-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -55,4 +55,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-dsx-dev-0.1.5.4.tgz
     version: 0.1.5.4
-generated: 2017-10-13T22:17:38.318284875-04:00
+generated: 2017-10-13T22:22:05.62168022-04:00
