@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   nginx:
   - appVersion: 1.10.2
-    created: 2017-09-11T20:53:57.287823542-04:00
+    created: 2017-10-16T10:48:35.576624695-04:00
     description: Chart for the nginx server
     digest: 0fe18d67239552df2c208fd49ce195c91fc9a03d9e2f3ba1431e2bebc3cf5b69
     engine: gotpl
@@ -22,4 +22,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/incubator/nginx-0.4.0.tgz
     version: 0.4.0
-generated: 2017-09-11T20:53:57.285759877-04:00
+generated: 2017-10-16T10:48:35.574090561-04:00
