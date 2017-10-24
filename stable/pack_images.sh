@@ -1,1 +1,1 @@
-helm package ./tomcat
+helm package ./wps

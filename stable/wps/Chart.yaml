@@ -1,0 +1,4 @@
+apiVersion: v1
+description: WebSphere Portal Server
+name: wps
+version: 9.0.0

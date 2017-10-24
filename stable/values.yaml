@@ -1,0 +1,41 @@
+# Default values for wps.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+replicaCount: 1
+image:
+  repository: patrocinio/portal
+  tag: v90
+  pullPolicy: IfNotPresent
+service:
+  name: wps
+  type: NodePort
+  externalPort: 30039
+  internalPort: 30039
+  nodePort: 30039
+  probe:
+    delaySeconds: 240
+    periodSeconds: 30
+    failureThreshold: 30
+    timeoutSeconds: 20
+ingress:
+  enabled: false
+  # Used to create Ingress record (should used with service.type: ClusterIP).
+  hosts:
+    - wps.local
+  annotations:
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  tls:
+    # Secrets must be manually created in the namespace.
+    # - secretName: chart-example-tls
+    #   hosts:
+    #     - chart-example.local
+resources:
+  limits:
+    cpu: 2000m
+    memory: 4Gi
+  requests:
+    cpu: 2000m
+    memory: 4Gi
+
+
