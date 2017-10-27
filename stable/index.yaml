@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-27T17:53:45.57942-04:00
+    created: 2017-10-27T17:56:01.594157-04:00
     description: An amazing FTP server
     digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-27T17:53:45.607302-04:00
+    created: 2017-10-27T17:56:01.617021-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-27T17:53:45.609321-04:00
+    created: 2017-10-27T17:56:01.618424-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -57,9 +57,9 @@ entries:
     version: 0.1.5.4
   tomcat:
   - appVersion: 8.0.47
-    created: 2017-10-27T17:53:45.609694-04:00
+    created: 2017-10-27T17:56:01.618766-04:00
     description: Chart for Apache Tomcat
-    digest: 4d6c22ec3ebb7445bb5ebe89970ae7174baf9119d99a08793867ba3cc44ec66d
+    digest: 23d5ee85f80beef37c05be21c7f7f7ab66bb0b0ec2671461c5bc93e07fc02b88
     engine: gotpl
     home: http://tomcat.apache.org
     icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-110x117.png
@@ -81,7 +81,7 @@ entries:
     version: 0.4.15
   wps:
   - apiVersion: v1
-    created: 2017-10-27T17:53:45.611872-04:00
+    created: 2017-10-27T17:56:01.620538-04:00
     description: WebSphere Portal Server
     digest: 8d94ea7d235ce58156dbba782372eb0ab355f299592065b92ea5d7ba01a9ce3d
     icon: https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps/websphere-portal-server.jpg
@@ -91,4 +91,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps-9.0.0.tgz
     version: 9.0.0
-generated: 2017-10-27T17:53:45.57731-04:00
+generated: 2017-10-27T17:56:01.592205-04:00
