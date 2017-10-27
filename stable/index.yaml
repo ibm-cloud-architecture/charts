@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-24T08:10:45.364560659-04:00
+    created: 2017-10-24T10:20:20.152913952-04:00
     description: An amazing FTP server
     digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-24T08:10:45.38971817-04:00
+    created: 2017-10-24T10:20:20.178404835-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-24T08:10:45.391870251-04:00
+    created: 2017-10-24T10:20:20.179894788-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -57,11 +57,14 @@ entries:
     version: 0.1.5.4
   wps:
   - apiVersion: v1
-    created: 2017-10-24T08:10:45.392066793-04:00
+    created: 2017-10-24T10:20:20.182708968-04:00
     description: WebSphere Portal Server
-    digest: 88fda3da4fa0c4a585158f2b929ff246c34a14fcf8da469be55605da4a46f146
+    digest: fd600d0ff67e3f5f0d31e770ccee6562c03381e00ad415b54ac6f581da2ce76c
+    icon: https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps/websphere-portal-server.jpg
+    maintainers:
+    - name: Eduardo Patrocinio (eduardop@us.ibm.com)
     name: wps
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps-9.0.0.tgz
     version: 9.0.0
-generated: 2017-10-24T08:10:45.360348859-04:00
+generated: 2017-10-24T10:20:20.15107952-04:00

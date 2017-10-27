@@ -8,5 +8,5 @@ Log in to Portal from your browser.  For example, your URL should look like the 
 
     Username: wpsadmin
     Password: start123.
-    
+   
 ```
