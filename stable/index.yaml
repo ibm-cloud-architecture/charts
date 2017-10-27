@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-24T10:20:20.152913952-04:00
+    created: 2017-10-27T17:25:27.051812-04:00
     description: An amazing FTP server
     digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-24T10:20:20.178404835-04:00
+    created: 2017-10-27T17:25:27.075581-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-24T10:20:20.179894788-04:00
+    created: 2017-10-27T17:25:27.077176-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -55,11 +55,35 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-dsx-dev-0.1.5.4.tgz
     version: 0.1.5.4
+  tomcat:
+  - appVersion: 8.0.47
+    created: 2017-10-27T17:25:27.077523-04:00
+    description: Chart for Apache Tomcat
+    digest: 26c0c67dacc1971494b9f46f9f08195b9a842c1d228f6fb46d8648e24ed58a24
+    engine: gotpl
+    home: http://tomcat.apache.org
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-110x117.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/bitnami-docker-tomcat
+    urls:
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/tomcat-0.4.15.tgz
+    version: 0.4.15
   wps:
   - apiVersion: v1
-    created: 2017-10-24T10:20:20.182708968-04:00
+    created: 2017-10-27T17:25:27.079481-04:00
     description: WebSphere Portal Server
-    digest: fd600d0ff67e3f5f0d31e770ccee6562c03381e00ad415b54ac6f581da2ce76c
+    digest: 8d94ea7d235ce58156dbba782372eb0ab355f299592065b92ea5d7ba01a9ce3d
     icon: https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps/websphere-portal-server.jpg
     maintainers:
     - name: Eduardo Patrocinio (eduardop@us.ibm.com)
@@ -67,4 +91,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps-9.0.0.tgz
     version: 9.0.0
-generated: 2017-10-24T10:20:20.15107952-04:00
+generated: 2017-10-27T17:25:27.049834-04:00
