@@ -17,19 +17,9 @@ spec:
       - name: {{ template "fullname" . }}
         image: "{{ .Values.image }}"
         imagePullPolicy: {{ default "" .Values.imagePullPolicy | quote }}
-        env:
-        - name: TOMCAT_USERNAME
-          value: {{ default "" .Values.tomcatUsername | quote }}
-        - name: TOMCAT_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: {{ template "fullname" . }}
-              key: tomcat-password
-        - name: TOMCAT_ALLOW_REMOTE_MANAGEMENT
-          value: "0"
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 80
         livenessProbe:
           httpGet:
             path: /
@@ -46,14 +36,3 @@ spec:
           periodSeconds: 51
         resources:
 {{ toYaml .Values.resources | indent 10 }}
-        volumeMounts:
-        - name: tomcat-data
-          mountPath: /bitnami/tomcat
-      volumes:
-      - name: tomcat-data
-      {{- if .Values.persistence.enabled }}
-        persistentVolumeClaim:
-          claimName: {{ template "fullname" . }}
-      {{- else }}
-        emptyDir: {}
-      {{- end -}}
