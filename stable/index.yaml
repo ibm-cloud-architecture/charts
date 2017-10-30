@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-30T13:27:11.794393-04:00
+    created: 2017-10-30T13:41:45.679942-04:00
     description: An amazing FTP server
     digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
@@ -12,9 +12,9 @@ entries:
     version: 0.1.0
   httpd:
   - appVersion: "2.4"
-    created: 2017-10-30T13:27:11.794771-04:00
+    created: 2017-10-30T13:41:45.680958-04:00
     description: Chart for httpd
-    digest: f5e47ad73b6e9ccc8010cc98136d8c5dc6b781e6426b84016c97fb10b62e80f8
+    digest: 29c29e84ee6438be0b4a10107ace14b0083deca50af11ea4cd18d2dcee731456
     engine: gotpl
     home: https://httpd.apache.org/
     icon: https://goodlogo.com/images/logos/apache_software_foundation_logo_3074.gif
@@ -28,11 +28,11 @@ entries:
     sources:
     - https://github.com/patrocinio/httpd
     urls:
-    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/httpd-0.1.0.tgz
-    version: 0.1.0
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/httpd-0.1.1.tgz
+    version: 0.1.1
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-30T13:27:11.817287-04:00
+    created: 2017-10-30T13:41:45.703999-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -53,7 +53,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-30T13:27:11.81924-04:00
+    created: 2017-10-30T13:41:45.705441-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -77,7 +77,7 @@ entries:
     version: 0.1.5.4
   wps:
   - apiVersion: v1
-    created: 2017-10-30T13:27:11.82166-04:00
+    created: 2017-10-30T13:41:45.707274-04:00
     description: WebSphere Portal Server
     digest: 8d94ea7d235ce58156dbba782372eb0ab355f299592065b92ea5d7ba01a9ce3d
     icon: https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps/websphere-portal-server.jpg
@@ -87,4 +87,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps-9.0.0.tgz
     version: 9.0.0
-generated: 2017-10-30T13:27:11.792557-04:00
+generated: 2017-10-30T13:41:45.678001-04:00
