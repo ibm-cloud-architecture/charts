@@ -1,19 +1,15 @@
-name: tomcat
-version: 0.4.15
-appVersion: 8.0.47
-description: Chart for Apache Tomcat
+name: httpd
+version: 0.1.0
+appVersion: 2.4
+description: Chart for httpd
 keywords:
-- tomcat
-- java
 - http
 - web
-- application server
-- jsp
-home: http://tomcat.apache.org
+home: https://httpd.apache.org/
 sources:
-- https://github.com/bitnami/bitnami-docker-tomcat
+- https://github.com/patrocinio/httpd
 maintainers:
-- name: Bitnami
-  email: containers@bitnami.com
+- name: Eduardo Patrocinio
+  email: eduardop@us.ibm.com
 engine: gotpl
-icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-110x117.png
+icon: https://goodlogo.com/images/logos/apache_software_foundation_logo_3074.gif

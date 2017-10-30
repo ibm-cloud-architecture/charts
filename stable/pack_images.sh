@@ -6,4 +6,4 @@ function pack {
 
 
 pack wps
-pack tomcat
+pack httpd
