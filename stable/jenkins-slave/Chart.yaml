@@ -1,0 +1,13 @@
+name: jenkins-slave
+version: 0.1.1
+appVersion: 2.4
+description: Chart for Jenkins slave
+keywords:
+- jenkins
+- docker
+sources:
+- https://github.com/patrocinio/jenkins_slave
+maintainers:
+- name: Eduardo Patrocinio
+  email: eduardop@us.ibm.com
+engine: gotpl
