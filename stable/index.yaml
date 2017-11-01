@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ftp-server:
   - apiVersion: v1
-    created: 2017-10-30T13:41:45.679942-04:00
+    created: 2017-11-01T11:47:08.18392-04:00
     description: An amazing FTP server
     digest: 5fd3a4c9648954acdc95529b1484e4e300977b55e21335e951037e4eb189dc7a
     icon: https://github.com/ibm-cloud-architecture/refarch-privatecloud-ftp-server/raw/master/ftp-server/ftp-server.jpg
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   httpd:
   - appVersion: "2.4"
-    created: 2017-10-30T13:41:45.680958-04:00
+    created: 2017-11-01T11:47:08.184603-04:00
     description: Chart for httpd
     digest: 29c29e84ee6438be0b4a10107ace14b0083deca50af11ea4cd18d2dcee731456
     engine: gotpl
@@ -32,7 +32,7 @@ entries:
     version: 0.1.1
   ibm-db2oltp-dev:
   - apiVersion: v1
-    created: 2017-10-30T13:41:45.703999-04:00
+    created: 2017-11-01T11:47:08.211975-04:00
     description: IBM Db2 Developer-C Edition 11.1.2.2
     digest: a44428b3aa3e34bb6e133e2fe9c239e01678aa103765c377fd5027de23fb68e3
     engine: gotpl
@@ -53,7 +53,7 @@ entries:
     version: 0.1.1
   ibm-dsx-dev:
   - apiVersion: v1
-    created: 2017-10-30T13:41:45.705441-04:00
+    created: 2017-11-01T11:47:08.214167-04:00
     description: IBM Data Science Experience (DSX) Developer Edition brings together
       best of breed open source tooling such as Jupyter, Zeppelin, RStudio, with Spark
       and Python,R and Scala runtimes to create a platform for Data Scientists to
@@ -75,9 +75,26 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/ibm-dsx-dev-0.1.5.4.tgz
     version: 0.1.5.4
+  istio:
+  - apiVersion: v1
+    appVersion: 0.2.7
+    created: 2017-11-01T11:47:08.214909-04:00
+    description: Istio Helm chart for Kubernetes
+    digest: 78cbbc8cbcfca50658b1c5f25fd1cc7c4fc4d8183b3e35547d22b7359ffbb7e5
+    home: https://istio.io/
+    icon: https://raw.githubusercontent.com/istio/istio.github.io/master/favicons/mstile-150x150.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    name: istio
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/istio-0.2.7-chart5.tgz
+    version: 0.2.7-chart5
   wps:
   - apiVersion: v1
-    created: 2017-10-30T13:41:45.707274-04:00
+    created: 2017-11-01T11:47:08.217715-04:00
     description: WebSphere Portal Server
     digest: 8d94ea7d235ce58156dbba782372eb0ab355f299592065b92ea5d7ba01a9ce3d
     icon: https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps/websphere-portal-server.jpg
@@ -87,4 +104,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ibm-cloud-architecture/charts/master/stable/wps-9.0.0.tgz
     version: 9.0.0
-generated: 2017-10-30T13:41:45.678001-04:00
+generated: 2017-11-01T11:47:08.177385-04:00
