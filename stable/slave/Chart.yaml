@@ -1,4 +1,4 @@
-name: jenkins-slave
+name: slave
 version: 0.1.1
 appVersion: 2.4
 description: Chart for Jenkins slave
