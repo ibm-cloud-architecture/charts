@@ -16,6 +16,7 @@ spec:
   ports:
   - port: {{ .Values.service.externalPort }}
     targetPort: {{ .Values.service.internalPort }}
+    nodePort: {{ .Values.service.nodePort }}
     protocol: TCP
   selector:
     app: {{ template "kube-ops-view.fullname" . }}

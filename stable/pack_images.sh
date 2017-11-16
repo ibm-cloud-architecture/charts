@@ -7,3 +7,4 @@ function pack {
 
 pack wps
 pack httpd
+pack kube-ops-view
