@@ -1,0 +1,17 @@
+{{- if .Values.pdb.enabled }}
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ template "fullname" . }}
+  annotations:
+  labels:
+    heritage: {{.Release.Service | quote }}
+    release: {{.Release.Name | quote }}
+    chart: "{{.Chart.Name}}-{{.Chart.Version}}"
+    component: "{{.Release.Name}}-{{.Values.component}}"
+spec:
+  selector:
+    matchLabels:
+      component: "{{.Release.Name}}-{{.Values.component}}"
+  minAvailable: {{.Values.pdb.minAvailable}}
+{{- end }}
