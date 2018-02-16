@@ -15,7 +15,7 @@ service:
 resources:
   requests:
     cpu: 1
-    memory: 10Gi
+    memory: 5Gi
 ingress:
   enabled: false
   # hostname: kube-ops-view.local
