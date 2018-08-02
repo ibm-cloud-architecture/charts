@@ -12,6 +12,7 @@ service:
   type: ClusterIP
   externalPort: 80
   internalPort: 8080
+  nodePort: 30454
 resources:
   limits:
     cpu: 100m
